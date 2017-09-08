@@ -99,4 +99,13 @@
     <string name="theme_option_reset_title">Reset Theme Options</string>
     <string name="theme_option_reset_message">Are you sure you want to reset themes-accent to default?</string>
 
+    <string name="systemui_tuner_title">Statusbar items</string>
+    <string name="systemui_tuner_summary">Battery options and status bar icons to disable</string>
+    <string name="navbar_title">Navigation Bar</string>
+
+    <!-- Statusbar Tuner -->
+    <string name="statusbar_items_title">Statusbar items</string>
+
+    <!-- Navbar tuner -->
+    <string name="navbar_tuner_title">Navbar buttons</string>
 </resources>
