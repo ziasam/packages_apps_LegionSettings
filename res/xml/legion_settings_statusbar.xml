@@ -25,6 +25,11 @@
                 android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
     </Preference>
 
+     <Preference
+            android:key="traffic" 
+            android:fragment="com.legion.settings.fragments.Traffic"
+	    android:title="@string/traffic_title" />
+
     <com.legion.settings.preferences.SystemSettingSwitchPreference
         android:key="show_fourg"
         android:title="@string/show_fourg_title"
