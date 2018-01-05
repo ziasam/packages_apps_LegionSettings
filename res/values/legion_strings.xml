@@ -670,4 +670,8 @@
     <string name="qs_show_brightness_slider_show_expanded">Show when expanded</string>
     <string name="qs_show_brightness_slider_show_always">Show always</string>
 
+    <!-- Brightness control -->
+    <string name="status_bar_toggle_brightness">Brightness Control</string>
+    <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding finger across the statusbar</string>
+
 </resources>
