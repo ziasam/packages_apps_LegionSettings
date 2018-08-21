@@ -647,4 +647,6 @@
     <string name="network_traffic_layout_v">Vertical</string>
     <string name="net_traffic_font">Fonts</string>
 
+    <string name="navbar_visibility">Nav Bar</string>
+    <string name="navbar_vis_summary">Enable-disable navigation bar</string>
 </resources>
