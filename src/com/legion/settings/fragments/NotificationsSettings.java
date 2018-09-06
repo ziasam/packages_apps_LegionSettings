@@ -48,6 +48,7 @@ public class NotificationsSettings extends SettingsPreferenceFragment implements
 
     private static final String FLASH_ON_CALL_WAITING_DELAY = "flash_on_call_waiting_delay";
     private CustomSeekBarPreference mFlashOnCallWaitingDelay;
+    private Preference mChargingLeds;
 
     @Override
     public void onCreate(Bundle bundle) {
@@ -59,6 +60,12 @@ public class NotificationsSettings extends SettingsPreferenceFragment implements
         mFlashOnCallWaitingDelay.setValue(Settings.System.getInt(resolver, Settings.System.FLASH_ON_CALLWAITING_DELAY, 200));
         mFlashOnCallWaitingDelay.setOnPreferenceChangeListener(this);
     }
+        mChargingLeds = (Preference) findPreference("charging_light");
+        if (mChargingLeds != null
+                && !getResources().getBoolean(
+                        com.android.internal.R.bool.config_intrusiveBatteryLed)) {
+            prefScreen.removePreference(mChargingLeds);
+        }
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
