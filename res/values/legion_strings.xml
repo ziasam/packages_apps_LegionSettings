@@ -31,6 +31,8 @@
     <string name="statusbar_title">Status bar</string>
     <string name="themesui_title">ThemesUi</string>    
     <string name="animations_title">Animations</string>
+    <string name="lockscreen_ui_title">Lockscreen UI</string>
+    <string name="lockscreen_ui_summary">Change the looks of Lockscreen</string>
 
     <!-- Summary -->
     <string name="animation_summary">System Animations</string>
