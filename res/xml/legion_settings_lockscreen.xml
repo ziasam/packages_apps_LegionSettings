@@ -48,7 +48,8 @@
         android:dialogTitle="@string/lock_clock_font_dialog_title"
         android:entries="@array/lock_clock_fonts_entries"
         android:entryValues="@array/lock_clock_fonts_values"
-        android:summary="@string/lock_clock_font_summary"
+        android:summary="%s"
+        android:defaultValue="34"
         android:persistent="false" />
 
     <ListPreference
@@ -57,7 +58,8 @@
         android:dialogTitle="@string/lock_date_font_dialog_title"
         android:entries="@array/lock_clock_fonts_entries"
         android:entryValues="@array/lock_clock_fonts_values"
-        android:summary="@string/lock_date_font_summary"
+        android:summary="%s"
+        android:defaultValue="32"
         android:persistent="false" />
 
     <com.legion.settings.preferences.CustomSeekBarPreference
