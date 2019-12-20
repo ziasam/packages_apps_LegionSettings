@@ -32,6 +32,18 @@
     <string name="themesui_title">ThemesUi</string>    
     <string name="animations_title">Animations</string>
 
+    <!-- Summary -->
+    <string name="animation_summary">System Animations</string>
+    <string name="quicksettings_summary">Quick settings Customizations</string>
+    <string name="powermenu_summary">Customize elements to be displayed in power menu</string>
+    <string name="buttonsettings_summary">Perform custom button actions</string>
+    <string name="statusbar_summary">Statusbar Customizations</string>
+    <string name="lockscreen_summary">Various options for lockscreen</string>
+    <string name="navbar_summary">Various options for Navbar</string>
+    <string name="gesture_summary">Gesture Customizations</string>
+    <string name="notifications_summary">Notifications and Incall settings</string>
+    <string name="misc_summary">Miscellaneous things to be checked here</string>
+
     <!-- General strings -->
     <string name="ok">OK</string>
     <string name="reset">Reset</string>
