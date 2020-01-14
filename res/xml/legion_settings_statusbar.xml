@@ -62,4 +62,9 @@
          android:summary="%s"
          android:defaultValue="0"/>
 
+    <Preference android:key="battery_mode" 
+         android:title="@string/battery_mode_title" 
+         android:summary="@string/battery_mode_summary"
+         android:fragment="com.legion.settings.fragments.XBatteryMode" />
+
 </PreferenceScreen>
