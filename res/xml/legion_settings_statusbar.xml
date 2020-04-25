@@ -74,4 +74,10 @@
          android:summary="%s"
          android:defaultValue="0"/>
 
+        <Preference
+            android:key="statusbar_battery"
+            android:title="@string/battery_percent_title"
+            android:summary="@string/battery_percent_summary"
+            android:fragment="com.legion.settings.fragments.StatusbarBatterySettings"/>
+
 </PreferenceScreen>
