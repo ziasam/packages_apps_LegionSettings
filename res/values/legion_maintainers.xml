@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+   <!-- Device Categories -->
+   <string name="xiaomi_devices">Xiaomi</string>
+
+   <!-- Xiaomi Device maintainers -->
+   <string name="device_whyred">Redmi Note 5 (whyred)</string>
+   <string name="whyred_maintainer">BabaSahare</string>
+
+   <!-- Device Categories -->
+   <string name="poco_devices">Poco</string>
+
+   <!-- Poco Device maintainers -->
+   <string name="device_miatoll">Miatoll</string>
+   <string name="miatoll_maintainer">Dr. Raj Kale</string>
+
+   <!-- Device Categories -->
+   <string name="asus_devices">Asus</string>
+
+   <!-- Asus Device maintainers -->
+   <string name="device_x01bd">Asus Max Pro M2 (X01BD)</string>
+   <string name="x01bd_maintainer">Ahmedsk786</string>
+
+   <!-- Device Categories -->
+   <string name="motorola_devices">Motorola</string>
+
+   <!-- Motorola Device maintainers -->
+
+</resources>
