@@ -18,76 +18,76 @@
     android:title="@string/legion_settings_title" >
 
         <!-- Quick Settings panel -->
-        <com.legion.settings.preference.CategoryLegionPreference
+        <com.legion.settings.preference.CategoryLegionPreferenceQs
             android:key="quicksettings_category"
             android:title="@string/quicksettings_title"
             android:fragment="com.legion.settings.fragments.QuickSettings"
             />
 
         <!-- Status Bar -->
-        <com.legion.settings.preference.CategoryLegionPreference
+        <com.legion.settings.preference.CategoryLegionPreferenceSt
             android:key="statusbar_category"
             android:title="@string/statusbar_title"
             android:fragment="com.legion.settings.fragments.StatusBarSettings"
             />
 
         <!-- Lock Screen -->
-        <com.legion.settings.preference.CategoryLegionPreference
+        <com.legion.settings.preference.CategoryLegionPreferenceLock
             android:key="lockscreen_category"
             android:title="@string/lockscreen_title"
             android:fragment="com.legion.settings.fragments.LockScreenSettings"
             />
 
         <!-- Gestures -->
-        <com.legion.settings.preference.CategoryLegionPreference
+        <com.legion.settings.preference.CategoryLegionPreferenceGesture
             android:key="gestures_category"
             android:title="@string/gestures_title"
             android:fragment="com.legion.settings.fragments.GestureSettings"
             />
 
 	<!-- Themes -->
-	<com.legion.settings.preference.CategoryLegionPreference
+	<com.legion.settings.preference.CategoryLegionPreferenceTheme
 	    android:key="settings_themes" 
 	    android:title="@string/themes_color"
 	    android:fragment="com.legion.settings.fragments.Themes" />
 
         <!-- Notifications -->
-        <com.legion.settings.preference.CategoryLegionPreference
+        <com.legion.settings.preference.CategoryLegionPreferenceNotif
             android:key="notifications_category"
             android:title="@string/notifications_title"
             android:fragment="com.legion.settings.fragments.NotificationsSettings"
             />
 
         <!-- Buttons -->
-        <com.legion.settings.preference.CategoryLegionPreference
+        <com.legion.settings.preference.CategoryLegionPreferenceButton
             android:key="buttonsettings_category"
             android:title="@string/button_title"
             android:fragment="com.legion.settings.fragments.ButtonSettings"
             />
 
         <!-- Power Menu -->
-        <com.legion.settings.preference.CategoryLegionPreference
+        <com.legion.settings.preference.CategoryLegionPreferencePower
             android:key="powermenu_category"
             android:title="@string/powermenu_title"
             android:fragment="com.legion.settings.fragments.PowerMenuSettings"
             />
 
         <!-- Navigation Bar -->
-        <com.legion.settings.preference.CategoryLegionPreference
+        <com.legion.settings.preference.CategoryLegionPreferenceNavbar
             android:key="navigationbar_category"
             android:title="@string/navbar_title"
             android:fragment="com.legion.settings.fragments.NavigationBarSettings"
             />
 
         <!-- Animations -->
-        <com.legion.settings.preference.CategoryLegionPreference
+        <com.legion.settings.preference.CategoryLegionPreferenceAnim
             android:key="animations_category"
             android:title="@string/animations_title"
             android:fragment="com.legion.settings.fragments.AnimationsSettings"
             />
 
         <!-- Misc -->
-        <com.legion.settings.preference.CategoryLegionPreference
+        <com.legion.settings.preference.CategoryLegionPreferenceddition
             android:key="misc_category"
             android:title="@string/misc_title"
             android:fragment="com.legion.settings.fragments.MiscSettings"
