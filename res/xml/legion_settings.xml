@@ -31,12 +31,25 @@
             android:fragment="com.legion.settings.fragments.StatusBarSettings"
             android:icon="@drawable/ic_settings_statusbar"/>
 
+	<!-- Themes -->
+	<com.legion.settings.preference.CategoryLegionPreferenceTheme
+	    android:id="@+id/settings_themes" 
+	    android:title="@string/themes_color"
+	    android::fragment="com.legion.settings.Themes" />
+
         <!-- Lock Screen -->
         <com.legion.settings.preference.CategoryLegionPreferenceLock
             android:key="lockscreen_category"
             android:title="@string/lockscreen_title"
             android:fragment="com.legion.settings.fragments.LockScreenSettings"
             android:icon="@drawable/ic_settings_lockscreens"/>
+
+        <!-- Notifications -->
+        <com.legion.settings.preference.CategoryLegionPreferenceNotif
+            android:key="notifications_category"
+            android:title="@string/notifications_title"
+            android:fragment="com.legion.settings.fragments.NotificationsSettings"
+            android:icon="@drawable/ic_settings_notifications"/>
 
         <!-- Gestures -->
         <com.legion.settings.preference.CategoryLegionPreferenceGesture
@@ -45,18 +58,12 @@
             android:fragment="com.legion.settings.fragments.GestureSettings"
             android:icon="@drawable/ic_settings_pdgestures"/>
 
-	<!-- Themes -->
-	<com.legion.settings.preference.CategoryLegionPreferenceTheme
-	    android:id="@+id/settings_themes" 
-	    android:title="@string/themes_color"
-	    android::fragment="com.legion.settings.Themes" />
-
-        <!-- Notifications -->
-        <com.legion.settings.preference.CategoryLegionPreferenceNotif
-            android:key="notifications_category"
-            android:title="@string/notifications_title"
-            android:fragment="com.legion.settings.fragments.NotificationsSettings"
-            android:icon="@drawable/ic_settings_notifications"/>
+        <!-- Navigation Bar -->
+        <com.legion.settings.preference.CategoryLegionPreferenceNavbar
+            android:key="navigationbar_category"
+            android:title="@string/navbar_title"
+            android:fragment="com.legion.settings.fragments.NavigationBarSettings"
+            android:icon="@drawable/ic_settings_navbar"/>
 
         <!-- Buttons -->
         <com.legion.settings.preference.CategoryLegionPreferenceButtons
@@ -71,13 +78,6 @@
             android:title="@string/powermenu_title"
             android:fragment="com.legion.settings.fragments.PowerMenuSettings"
             android:icon="@drawable/ic_settings_powermenu"/>
-
-        <!-- Navigation Bar -->
-        <com.legion.settings.preference.CategoryLegionPreferenceNavbar
-            android:key="navigationbar_category"
-            android:title="@string/navbar_title"
-            android:fragment="com.legion.settings.fragments.NavigationBarSettings"
-            android:icon="@drawable/ic_settings_navbar"/>
 
         <!-- Animations -->
         <com.legion.settings.preference.CategoryLegionPreferenceAnim
