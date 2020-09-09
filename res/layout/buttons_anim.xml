@@ -32,9 +32,7 @@
         android:layout_height="60dp"
         android:scaleType="fitXY"
         android:layout_centerVertical="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginRight="60dp"
-	
+        android:layout_marginLeft="50dp"
         app:lottie_autoPlay="true"
         app:lottie_loop="true"
         app:lottie_rawRes="@raw/buttons_custom" />
@@ -47,7 +45,8 @@
         android:ellipsize="marquee"
         android:layout_centerVertical="true"
         android:marqueeRepeatLimit="marquee_forever"
-        android:layout_marginLeft="45dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="72dp"
         android:singleLine="true"
 	android:textColor="?android:attr/textColorPrimary"
         android:textSize="16sp"

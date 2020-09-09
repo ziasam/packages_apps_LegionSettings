@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.legion.settings.preference;
+package com.legion.settings.preferences;
 
 import android.content.Context;
 import android.content.res.TypedArray;

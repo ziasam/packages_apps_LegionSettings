@@ -33,7 +33,7 @@
         android:scaleType="fitXY"
         android:layout_centerVertical="true"
         android:layout_alignParentRight="true"
-        android:layout_marginRight="50dp"
+	android:layout_marginRight="50dp"
         app:lottie_colorFilter="?android:attr/textColorPrimary"
         app:lottie_autoPlay="true"
         app:lottie_loop="true"

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.legion.settings.preference;
+package com.legion.settings.preferences;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -35,14 +35,14 @@ import android.widget.TextView;
 import com.android.settings.R;
 import com.android.settings.Utils;
 
-public class CategoryLegionPreferenceNavbar extends Preference {
+public class CategoryLegionPreferenceButtons extends Preference {
 
     private final View.OnClickListener mClickListener = v -> performClick(v);
 
     private boolean mAllowDividerAbove;
     private boolean mAllowDividerBelow;
 
-    public CategoryLegionPreferenceNavbar(Context context, AttributeSet attrs) {
+    public CategoryLegionPreferenceButtons(Context context, AttributeSet attrs) {
         super(context, attrs);
 
         TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.Preference);
@@ -53,10 +53,10 @@ public class CategoryLegionPreferenceNavbar extends Preference {
                 R.styleable.Preference_allowDividerBelow, false);
         a.recycle();
 
-        setLayoutResource(R.layout.navbar_anim);
+        setLayoutResource(R.layout.buttons_anim);
     }
 
-    public CategoryLegionPreferenceNavbar(Context context, View view) {
+    public CategoryLegionPreferenceButtons(Context context, View view) {
         super(context);
     }
 
