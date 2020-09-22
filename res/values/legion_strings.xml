@@ -30,6 +30,7 @@
     <string name="miscsettings_title">Additional Settings</string>
     <string name="statusbar_title">Status bar</string>
     <string name="themesui_title">ThemesUi</string>    
+    <string name="animations_title">Animations</string>
 
     <!-- General strings -->
     <string name="ok">OK</string>
