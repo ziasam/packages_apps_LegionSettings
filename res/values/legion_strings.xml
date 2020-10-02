@@ -61,7 +61,6 @@
     <string name="theme_type_dark_grey">Dark Grey</string>
     <string name="theme_type_du_pitchblack">Pitch black</string> 
     <string name="theme_type_material_ocean">Material Ocean</string>
-    <string name="theme_type_xtended_clear">Xtended Clear</string>
 
     <!-- GVM -->
     <string name="theme_customization_statusbar_height_title">Statusbar height</string>
@@ -87,5 +86,17 @@
     <string name="color_right_arrow" translatable="false">"→"</string>
     <string name="color_down_arrow" translatable="false">"↓"</string>
     <string name="longpress_info">Longpress box to save color</string>
+
+    <!-- RGB Pickers -->
+    <string name="themes_color">Theming</string>
+    <string name="themes_summary">Theming section</string>
+    <string name="accent_color">Accent picker</string>
+    <string name="accent_summary">System wide accent maker</string> 
+    <string name="gradient_color">Gradient picker</string>
+    <string name="gradient_summary">Gradient effect maker</string>
+
+    <!-- Theme Reset -->
+    <string name="theme_option_reset_title">Reset Theme Options</string>
+    <string name="theme_option_reset_message">Are you sure you want to reset themes-accent to default?</string>
 
 </resources>

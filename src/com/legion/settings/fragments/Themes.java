@@ -49,17 +49,16 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.dashboard.DashboardFragment;
 import android.provider.SearchIndexableResource;
 import com.android.settings.search.BaseSearchIndexProvider;
-import com.android.settings.search.Indexable;
 import com.android.settingslib.search.SearchIndexable;
 import com.android.settings.display.OverlayCategoryPreferenceController;
 import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.core.lifecycle.Lifecycle;
-import com.legion.settings.preference.CustomSeekBarPreference;
-import com.legion.settings.preference.SystemSettingSwitchPreference;
+import com.legion.settings.preferences.CustomSeekBarPreference;
+import com.legion.settings.preferences.SystemSettingSwitchPreference;
 import net.margaritov.preference.colorpicker.ColorPickerPreference;
 
 public class Themes extends DashboardFragment implements
-        OnPreferenceChangeListener, Indexable {
+        OnPreferenceChangeListener {
 
     private static final String TAG = "Themes";
 
@@ -164,7 +163,6 @@ public class Themes extends DashboardFragment implements
                     handleBackgrounds(false, context, UiModeManager.MODE_NIGHT_NO, ThemesUtils.PITCH_BLACK);
                     handleBackgrounds(false, context, UiModeManager.MODE_NIGHT_NO, ThemesUtils.DARK_GREY);
                     handleBackgrounds(false, context, UiModeManager.MODE_NIGHT_NO, ThemesUtils.MATERIAL_OCEAN);
-                    handleBackgrounds(false, context, UiModeManager.MODE_NIGHT_NO, ThemesUtils.XTENDED_CLEAR);
                     break;
                 case "2":
                     handleBackgrounds(false, context, UiModeManager.MODE_NIGHT_YES, ThemesUtils.SOLARIZED_DARK);
@@ -173,7 +171,6 @@ public class Themes extends DashboardFragment implements
                     handleBackgrounds(false, context, UiModeManager.MODE_NIGHT_YES, ThemesUtils.PITCH_BLACK);
                     handleBackgrounds(false, context, UiModeManager.MODE_NIGHT_YES, ThemesUtils.DARK_GREY);
                     handleBackgrounds(false, context, UiModeManager.MODE_NIGHT_YES, ThemesUtils.MATERIAL_OCEAN);
-                    handleBackgrounds(false, context, UiModeManager.MODE_NIGHT_YES, ThemesUtils.XTENDED_CLEAR);
                     break;
                 case "3":
                     handleBackgrounds(true, context, UiModeManager.MODE_NIGHT_YES, ThemesUtils.SOLARIZED_DARK);
@@ -182,7 +179,6 @@ public class Themes extends DashboardFragment implements
                     handleBackgrounds(false, context, UiModeManager.MODE_NIGHT_YES, ThemesUtils.PITCH_BLACK);
                     handleBackgrounds(false, context, UiModeManager.MODE_NIGHT_YES, ThemesUtils.DARK_GREY);
                     handleBackgrounds(false, context, UiModeManager.MODE_NIGHT_YES, ThemesUtils.MATERIAL_OCEAN);
-                    handleBackgrounds(false, context, UiModeManager.MODE_NIGHT_YES, ThemesUtils.XTENDED_CLEAR);
                     break;
                 case "4":
                     handleBackgrounds(false, context, UiModeManager.MODE_NIGHT_YES, ThemesUtils.SOLARIZED_DARK);
@@ -191,7 +187,6 @@ public class Themes extends DashboardFragment implements
                     handleBackgrounds(false, context, UiModeManager.MODE_NIGHT_YES, ThemesUtils.PITCH_BLACK);
                     handleBackgrounds(false, context, UiModeManager.MODE_NIGHT_YES, ThemesUtils.DARK_GREY);
                     handleBackgrounds(false, context, UiModeManager.MODE_NIGHT_YES, ThemesUtils.MATERIAL_OCEAN);
-                    handleBackgrounds(false, context, UiModeManager.MODE_NIGHT_YES, ThemesUtils.XTENDED_CLEAR);
                     break;
                 case "5":
                     handleBackgrounds(false, context, UiModeManager.MODE_NIGHT_YES, ThemesUtils.SOLARIZED_DARK);
@@ -200,7 +195,6 @@ public class Themes extends DashboardFragment implements
                     handleBackgrounds(false, context, UiModeManager.MODE_NIGHT_YES, ThemesUtils.PITCH_BLACK);
                     handleBackgrounds(false, context, UiModeManager.MODE_NIGHT_YES, ThemesUtils.DARK_GREY);
                     handleBackgrounds(false, context, UiModeManager.MODE_NIGHT_YES, ThemesUtils.MATERIAL_OCEAN);
-                    handleBackgrounds(false, context, UiModeManager.MODE_NIGHT_YES, ThemesUtils.XTENDED_CLEAR);
                     break;
                 case "6":
                     handleBackgrounds(false, context, UiModeManager.MODE_NIGHT_YES, ThemesUtils.SOLARIZED_DARK);
@@ -209,7 +203,6 @@ public class Themes extends DashboardFragment implements
                     handleBackgrounds(true, context, UiModeManager.MODE_NIGHT_YES, ThemesUtils.PITCH_BLACK);
                     handleBackgrounds(false, context, UiModeManager.MODE_NIGHT_YES, ThemesUtils.DARK_GREY);
                     handleBackgrounds(false, context, UiModeManager.MODE_NIGHT_YES, ThemesUtils.MATERIAL_OCEAN);
-                    handleBackgrounds(false, context, UiModeManager.MODE_NIGHT_YES, ThemesUtils.XTENDED_CLEAR);
                     break;
                 case "7":
                     handleBackgrounds(false, context, UiModeManager.MODE_NIGHT_YES, ThemesUtils.SOLARIZED_DARK);
@@ -218,7 +211,6 @@ public class Themes extends DashboardFragment implements
                     handleBackgrounds(false, context, UiModeManager.MODE_NIGHT_YES, ThemesUtils.PITCH_BLACK);
                     handleBackgrounds(true, context, UiModeManager.MODE_NIGHT_YES, ThemesUtils.DARK_GREY);
                     handleBackgrounds(false, context, UiModeManager.MODE_NIGHT_YES, ThemesUtils.MATERIAL_OCEAN);
-                    handleBackgrounds(false, context, UiModeManager.MODE_NIGHT_YES, ThemesUtils.XTENDED_CLEAR);
                     break;
                 case "8":
                     handleBackgrounds(false, context, UiModeManager.MODE_NIGHT_YES, ThemesUtils.SOLARIZED_DARK);
@@ -227,16 +219,6 @@ public class Themes extends DashboardFragment implements
                     handleBackgrounds(false, context, UiModeManager.MODE_NIGHT_YES, ThemesUtils.PITCH_BLACK);
                     handleBackgrounds(false, context, UiModeManager.MODE_NIGHT_YES, ThemesUtils.DARK_GREY);
                     handleBackgrounds(true, context, UiModeManager.MODE_NIGHT_YES, ThemesUtils.MATERIAL_OCEAN);
-                    handleBackgrounds(false, context, UiModeManager.MODE_NIGHT_YES, ThemesUtils.XTENDED_CLEAR);
-                    break;
-                case "9":
-                    handleBackgrounds(false, context, UiModeManager.MODE_NIGHT_YES, ThemesUtils.SOLARIZED_DARK);
-                    handleBackgrounds(false, context, UiModeManager.MODE_NIGHT_YES, ThemesUtils.BAKED_GREEN);
-                    handleBackgrounds(false, context, UiModeManager.MODE_NIGHT_YES, ThemesUtils.CHOCO_X);
-                    handleBackgrounds(false, context, UiModeManager.MODE_NIGHT_YES, ThemesUtils.PITCH_BLACK);
-                    handleBackgrounds(false, context, UiModeManager.MODE_NIGHT_YES, ThemesUtils.DARK_GREY);
-                    handleBackgrounds(false, context, UiModeManager.MODE_NIGHT_YES, ThemesUtils.MATERIAL_OCEAN);
-                    handleBackgrounds(true, context, UiModeManager.MODE_NIGHT_YES, ThemesUtils.XTENDED_CLEAR);
                     break;
             }
             try {
@@ -279,9 +261,7 @@ public class Themes extends DashboardFragment implements
     private void setupThemeSwitchPref() {
         mThemeSwitch = (ListPreference) findPreference(PREF_THEME_SWITCH);
         mThemeSwitch.setOnPreferenceChangeListener(this);
-        if (LegionUtils.isThemeEnabled("com.android.theme.xtendedclear.system")) {
-            mThemeSwitch.setValue("9");
-        } else if (LegionUtils.isThemeEnabled("com.android.theme.darkgrey.system")) {
+        if (LegionUtils.isThemeEnabled("com.android.theme.darkgrey.system")) {
             mThemeSwitch.setValue("7");
         } else if (LegionUtils.isThemeEnabled("com.android.theme.pitchblack.system")) {
             mThemeSwitch.setValue("6");
@@ -355,7 +335,6 @@ public class Themes extends DashboardFragment implements
         handleBackgrounds(false, context, UiModeManager.MODE_NIGHT_NO, ThemesUtils.PITCH_BLACK);
         handleBackgrounds(false, context, UiModeManager.MODE_NIGHT_NO, ThemesUtils.DARK_GREY);
         handleBackgrounds(false, context, UiModeManager.MODE_NIGHT_NO, ThemesUtils.MATERIAL_OCEAN);
-        handleBackgrounds(false, context, UiModeManager.MODE_NIGHT_NO, ThemesUtils.XTENDED_CLEAR);
         setupThemeSwitchPref();
         mGradientColor = (ColorPickerPreference) findPreference(GRADIENT_COLOR);
         SystemProperties.set(GRADIENT_COLOR_PROP, "-1");

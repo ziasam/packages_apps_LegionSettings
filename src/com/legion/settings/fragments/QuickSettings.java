@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017-2019 The PixelDust Project
+ * Copyright (C) 2020 Benzo Rom
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -32,22 +32,24 @@ import androidx.preference.Preference.OnPreferenceChangeListener;
 
 import com.android.settings.R;
 import com.android.settings.search.BaseSearchIndexProvider;
-import com.android.settings.search.Indexable;
 import com.android.settings.SettingsPreferenceFragment;
+import com.android.settingslib.search.SearchIndexable;
 
 import com.android.internal.logging.nano.MetricsProto;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
-public class QuickSettings extends SettingsPreferenceFragment implements
-        Indexable {
+@SearchIndexable
+public class QuickSettings extends SettingsPreferenceFragment {
 
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
         addPreferencesFromResource(R.xml.legion_settings_quicksettings);
         PreferenceScreen prefSet = getPreferenceScreen();
+
     }
 
     @Override
@@ -55,22 +57,20 @@ public class QuickSettings extends SettingsPreferenceFragment implements
         return MetricsProto.MetricsEvent.LEGION_SETTINGS;
     }
 
-    public static final Indexable.SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+    public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
             new BaseSearchIndexProvider() {
                 @Override
-                public List<SearchIndexableResource> getXmlResourcesToIndex(Context context,
-                        boolean enabled) {
-                    ArrayList<SearchIndexableResource> result =
-                            new ArrayList<SearchIndexableResource>();
-                     SearchIndexableResource sir = new SearchIndexableResource(context);
-                    sir.xmlResId = R.xml.derpquest_settings_quicksettings;
-                    result.add(sir);
-                    return result;
+                public List<SearchIndexableResource> getXmlResourcesToIndex(
+                        Context context, boolean enabled) {
+                    final SearchIndexableResource sir = new SearchIndexableResource(context);
+                    sir.xmlResId = R.xml.legion_settings_quicksettings;
+                    return Arrays.asList(sir);
                 }
+
                 @Override
                 public List<String> getNonIndexableKeys(Context context) {
-                    ArrayList<String> result = new ArrayList<String>();
-                    return result;
+                    final List<String> keys = super.getNonIndexableKeys(context);
+                    return keys;
                 }
-    };
+            };
 }

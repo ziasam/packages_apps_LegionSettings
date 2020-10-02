@@ -34,4 +34,5 @@
 
     <color name="disabled_text_color">#66000000</color>
 
+    <color name="homepage_legion_background">@*android:color/accent_device_default_light</color>
 </resources>

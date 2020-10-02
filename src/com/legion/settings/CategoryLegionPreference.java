@@ -35,14 +35,14 @@ import android.widget.TextView;
 import com.android.settings.R;
 import com.android.settings.Utils;
 
-public class CategoryLegionPreferenceGesture extends Preference {
+public class CategoryLegionPreference extends Preference {
 
     private final View.OnClickListener mClickListener = v -> performClick(v);
 
     private boolean mAllowDividerAbove;
     private boolean mAllowDividerBelow;
 
-    public CategoryLegionPreferenceGesture(Context context, AttributeSet attrs) {
+    public CategoryLegionPreference(Context context, AttributeSet attrs) {
         super(context, attrs);
 
         TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.Preference);
@@ -53,10 +53,10 @@ public class CategoryLegionPreferenceGesture extends Preference {
                 R.styleable.Preference_allowDividerBelow, false);
         a.recycle();
 
-        setLayoutResource(R.layout.gesture_anim);
+        setLayoutResource(R.layout.category_legion_preference);
     }
 
-    public CategoryLegionPreferenceGesture(Context context, View view) {
+    public CategoryLegionPreference(Context context, View view) {
         super(context);
     }
 
