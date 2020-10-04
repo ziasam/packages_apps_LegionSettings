@@ -1,4 +1,4 @@
-package com.legion.settings;
+package com.legion.settings.fragments;
 
 import com.android.internal.logging.nano.MetricsProto;
 
@@ -16,8 +16,6 @@ import android.content.res.Resources;
 import android.content.om.IOverlayManager;
 import android.content.om.OverlayInfo;
 import android.graphics.Color;
-import android.content.Intent;
-import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.os.RemoteException;
 import android.os.SystemProperties;
@@ -49,16 +47,15 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.dashboard.DashboardFragment;
 import android.provider.SearchIndexableResource;
 import com.android.settings.search.BaseSearchIndexProvider;
+import com.android.settingslib.search.Indexable;
 import com.android.settingslib.search.SearchIndexable;
 import com.android.settings.display.OverlayCategoryPreferenceController;
 import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.core.lifecycle.Lifecycle;
-import com.legion.settings.preferences.CustomSeekBarPreference;
-import com.legion.settings.preferences.SystemSettingSwitchPreference;
 import net.margaritov.preference.colorpicker.ColorPickerPreference;
 
 public class Themes extends DashboardFragment implements
-        OnPreferenceChangeListener {
+        OnPreferenceChangeListener, Indexable {
 
     private static final String TAG = "Themes";
 
@@ -67,13 +64,10 @@ public class Themes extends DashboardFragment implements
     private static final String GRADIENT_COLOR = "gradient_color";
     private static final String GRADIENT_COLOR_PROP = "persist.sys.theme.gradientcolor";
     private static final String PREF_THEME_SWITCH = "theme_switch";
-    private static final String CUSTOM_THEME_BROWSE = "theme_select_activity";
-    static final int DEFAULT_QS_PANEL_COLOR = 0xffffffff;
     private static final int MENU_RESET = Menu.FIRST;
 
     static final int DEFAULT = 0xff1a73e8;
 
-    private Preference mThemeBrowse;
     private IOverlayManager mOverlayService;
     private UiModeManager mUiModeManager;
 
@@ -94,9 +88,6 @@ public class Themes extends DashboardFragment implements
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
-
-	mThemeBrowse = findPreference(CUSTOM_THEME_BROWSE);
-	mThemeBrowse.setEnabled(isBrowseThemesAvailable());
 
         mUiModeManager = getContext().getSystemService(UiModeManager.class);
 
@@ -219,7 +210,7 @@ public class Themes extends DashboardFragment implements
                     handleBackgrounds(false, context, UiModeManager.MODE_NIGHT_YES, ThemesUtils.PITCH_BLACK);
                     handleBackgrounds(false, context, UiModeManager.MODE_NIGHT_YES, ThemesUtils.DARK_GREY);
                     handleBackgrounds(true, context, UiModeManager.MODE_NIGHT_YES, ThemesUtils.MATERIAL_OCEAN);
-                    break;
+                        break;
             }
             try {
                  mOverlayService.reloadAndroidAssets(UserHandle.USER_CURRENT);
@@ -229,13 +220,6 @@ public class Themes extends DashboardFragment implements
              }
         }
         return true;
-    }
-
-   private boolean isBrowseThemesAvailable() {
-        PackageManager pm = getPackageManager();
-        Intent browse = new Intent();
-        browse.setClassName("com.android.customization", "com.android.customization.picker.CustomizationPickerActivity");
-        return pm.resolveActivity(browse, 0) != null;
     }
 
     private void setupAccentPref() {

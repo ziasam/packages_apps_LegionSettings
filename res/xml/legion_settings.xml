@@ -49,7 +49,7 @@
 	<com.legion.settings.preference.CategoryLegionPreference
 	    android:key="settings_themes" 
 	    android:title="@string/themes_color"
-	    android:fragment="com.legion.settings.Themes" />
+	    android:fragment="com.legion.settings.fragments.Themes" />
 
         <!-- Notifications -->
         <com.legion.settings.preference.CategoryLegionPreference
