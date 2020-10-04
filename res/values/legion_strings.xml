@@ -101,7 +101,6 @@
 
     <string name="systemui_tuner_title">Statusbar items</string>
     <string name="systemui_tuner_summary">Battery options and status bar icons to disable</string>
-    <string name="navbar_title">Navigation Bar</string>
 
     <!-- Statusbar Tuner -->
     <string name="statusbar_items_title">Statusbar items</string>

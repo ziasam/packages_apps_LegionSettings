@@ -35,8 +35,6 @@ import com.android.settingslib.search.SearchIndexable;
 
 import com.android.settings.SettingsPreferenceFragment;
 
-import com.legion.settings.Utils;
-
 import com.android.internal.logging.nano.MetricsProto;
 
 import com.legion.settings.preferences.CustomSeekBarPreference;
@@ -54,7 +52,7 @@ public class NotificationsSettings extends SettingsPreferenceFragment implements
     @Override
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
-        addPreferencesFromResource(R.xml.legion_settings_notifications.xml);
+        addPreferencesFromResource(R.xml.legion_settings_notifications);
         final ContentResolver resolver = getActivity().getContentResolver();
 
         mFlashOnCallWaitingDelay = (CustomSeekBarPreference) findPreference(FLASH_ON_CALL_WAITING_DELAY);
@@ -87,7 +85,7 @@ public class NotificationsSettings extends SettingsPreferenceFragment implements
                 public List<SearchIndexableResource> getXmlResourcesToIndex(
                         Context context, boolean enabled) {
                     final SearchIndexableResource sir = new SearchIndexableResource(context);
-                    sir.xmlResId = R.xml.legion_settings_notifications.xml;
+                    sir.xmlResId = R.xml.legion_settings_notifications;
                     return Arrays.asList(sir);
                 }
 
