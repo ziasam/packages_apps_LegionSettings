@@ -45,15 +45,13 @@ import com.legion.settings.preferences.SystemSettingSwitchPreference;
 import com.legion.settings.preferences.SystemSettingSeekBarPreference;
 import com.legion.settings.preferences.SecureSettingListPreference;
 
-import com.legion.settings.preferences.XUtils;
-
 public class LockScreenSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
 
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
-        addPreferencesFromResource(R.xml.x_settings_lockscreen);
+        addPreferencesFromResource(R.xml.legion_settings_lockscreen);
 
         ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();

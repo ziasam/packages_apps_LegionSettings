@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017-2019 The PixelDust Project
+ * Copyright (C) 2014-2015 The CyanogenMod Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,6 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
 package com.legion.settings.fragments;
 
 import android.content.Context;
@@ -33,6 +34,7 @@ import androidx.preference.Preference.OnPreferenceChangeListener;
 import android.provider.Settings;
 import com.android.settings.R;
 import androidx.annotation.NonNull;
+
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.SettingsPreferenceFragment;
 
@@ -40,7 +42,6 @@ import java.util.Arrays;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.android.settings.SettingsPreferenceFragment;
 
 public class PowerMenuSettings extends SettingsPreferenceFragment
                 implements Preference.OnPreferenceChangeListener {
@@ -82,4 +83,5 @@ public class PowerMenuSettings extends SettingsPreferenceFragment
     public int getMetricsCategory() {
         return MetricsProto.MetricsEvent.LEGION_SETTINGS;
     }
+
 }
