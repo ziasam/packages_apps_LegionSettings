@@ -735,5 +735,10 @@
     <!-- Power menu on lockscreen -->
     <string name="power_menu_hide_on_secure_title">Hide on lockscreen</string>
     <string name="power_menu_hide_on_secure_summary">Hides the global actions menu on secure lockscreen</string>
+
+    <!-- Notification headers -->
+    <string name="notification_headers_title">Notification Headers</string>
+    <string name="notification_headers_summary">Show headers in the notification shade\nRequires a SystemUI restart</string>
+
 </resources>
 
