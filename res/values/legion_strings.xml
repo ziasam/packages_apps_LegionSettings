@@ -234,10 +234,6 @@
     <string name="double_tap_sleep_lockscreen_title">Double tap to sleep</string>
     <string name="double_tap_sleep_lockscreen_summary">Double tap anywhere on the lockscreen to put phone to sleep</string>
 
-    <!-- QuickSettings haptic feedback -->
-    <string name="quick_settings_vibrate_title">Vibrate on touch</string>
-    <string name="quick_settings_vibrate_summary">Vibrate when QS tiles are pressed</string>
-
     <!-- Battery light -->
     <string name="battery_light_settings">Battery Charging Light</string>
     <string name="battery_light_summary">Customization for Battery Light</string>
