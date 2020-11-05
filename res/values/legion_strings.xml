@@ -108,8 +108,9 @@
     <string name="systemui_tuner_title">Statusbar items</string>
     <string name="systemui_tuner_summary">Battery options and status bar icons to disable</string>
 
-    <!-- Statusbar Tuner -->
-    <string name="statusbar_items_title">Statusbar items</string>
+    <!--SystemUI Tuner -->
+    <string name="statusbar_tuner_title">Statusbar Items</string>
+    <string name="statusbar_tuner_summary">Select which statusbar icons to disable</string>
 
     <!-- Navbar tuner -->
     <string name="navbar_tuner_title">Navbar Tuner</string>
@@ -627,6 +628,7 @@
 
     <!-- Statusbar net monitor -->
     <string name="traffic_title">Traffic indicators</string>
+    <string name="network_traffic_summary">Statusbar Network traffic indicator options</string>
     <string name="network_traffic_state_title">Network traffic</string>
     <string name="network_traffic">Network traffic</string>
     <string name="network_traffic_location">Traffic indicator placement</string>
