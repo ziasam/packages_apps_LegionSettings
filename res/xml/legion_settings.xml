@@ -83,7 +83,7 @@
         <com.legion.settings.preferences.CategoryLegionPreferenceAnim
             android:key="animations_category"
             android:title="@string/animations_title"
-            android:fragment="com.legion.settings.fragments.AnimationsSettings"
+            android:fragment="com.legion.settings.fragments.AnimationSettings"
             />
 
         <!-- Misc -->
