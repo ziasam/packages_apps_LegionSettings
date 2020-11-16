@@ -89,5 +89,11 @@
             android:summary="@string/qs_icon_primary_summary" 
             android:defaultValue="false" />
 
+        <com.legion.settings.preferences.SystemSettingSwitchPreference
+            android:key="qs_new_bg_enabled"
+            android:title="@string/qs_new_bg_title"
+            android:summary="@string/qs_new_bg_summary"
+            android:defaultValue="false" />
+
     </PreferenceCategory>
 </PreferenceScreen>

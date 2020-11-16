@@ -724,4 +724,8 @@
     <string name="qs_datausage_daily">Daily usage</string>
     <string name="qs_datausage_monthly">Monthly usage</string>
 
+    <!-- Gradient Panel QS Bg -->
+    <string name="qs_new_bg_title">Gradient Qs Background</string>
+    <string name="qs_new_bg_summary">Whether to enable gradient based qs panel background</string>
+
 </resources>
