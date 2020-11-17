@@ -37,6 +37,11 @@
         android:entryValues="@array/battery_percent_values"
         android:defaultValue="0" />
 
+    <SwitchPreference
+        android:key="qs_battery_percentage"
+        android:title="@string/qs_battery_percentage_title"
+        android:summary="@string/qs_battery_percentage_summary" />
+
         <com.legion.settings.preferences.SystemSettingListPreference
             android:key="text_charging_symbol"
             android:title="@string/text_charging_symbol_title"
@@ -45,4 +50,5 @@
             android:entryValues="@array/text_charging_symbol_values"
             android:summary="%s"
             android:defaultValue="0" />
+
 </PreferenceScreen>
