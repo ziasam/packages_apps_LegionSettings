@@ -728,10 +728,6 @@
     <string name="qs_new_bg_title">Gradient Qs Background</string>
     <string name="qs_new_bg_summary">Whether to enable gradient based qs panel background</string>
 
-    <!-- SmartSpace -->
-    <string name="smart_space_title">SmartSpace</string>
-    <string name="smart_space_summary">Display conditional info such as weather and events on lockscreen\nRequires a SystemUI restart</string>
-
     <!-- Power menu on lockscreen -->
     <string name="power_menu_hide_on_secure_title">Hide on lockscreen</string>
     <string name="power_menu_hide_on_secure_summary">Hides the global actions menu on secure lockscreen</string>
