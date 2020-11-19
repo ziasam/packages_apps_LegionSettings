@@ -609,32 +609,6 @@
     <string name="lock_screen_weather_style_summaryOff">Weather is shown below date line with location</string>
     <string name="lock_screen_weather_style_summaryOn">Weather is shown on the date line without location</string>
     
-    <!-- Status bar - Battery -->
-    <string name="battery_mode_title">Battery Styles</string>
-    <string name="battery_mode_summary">Configure SB n QS battery mode</string>
-    <string name="status_bar_battery_style_title">Battery style</string>
-    <string name="status_bar_battery_style_q">Icon portrait (default)</string>
-    <string name="status_bar_battery_style_dotted_circle">Dotted circle</string>
-    <string name="status_bar_battery_style_circle">Filled circle</string>
-    <string name="status_bar_battery_style_text">Icon hidden</string>
-    <string name="status_bar_battery_style_hidden">Icon hidden(Text only)</string>
-
-    <!-- Status bar - Battery percentage -->
-    <string name="status_bar_battery_percentage_title">Battery percentage</string>
-    <string name="status_bar_battery_percentage_default">Hidden (default)</string>
-    <string name="status_bar_battery_percentage_text_inside">Enabled (Inside icon)</string>
-    <string name="status_bar_battery_percentage_text_next">Enabled</string>
-    <string name="status_bar_battery_text_charging_title">Battery percentage when charging</string>
-    <string name="status_bar_battery_text_charging_summary">Always display battery percentage when charging</string>
-
-    <!-- Battery mode -->
-    <string name="battery_percentage_title">Battery percentage</string>
-    <string name="qs_battery_percentage_title">QS battery percentage</string>
-    <string name="battery_percentage_off">Disabled</string>
-    <string name="battery_percentage_next">Enabled</string>
-    <string name="battery_percentage_inside">Enabled (inside icon)</string>
-    <string name="battery_percentage_estimate">Enabled (estimate)</string>
-
     <!-- Status bar - Battery custom charging symbol -->
     <string name="text_charging_symbol_title">Custom charging symbol for text style</string>
     <string name="text_charging_symbol_dialog">Custom charging symbol near battery percentage text</string>
