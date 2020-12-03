@@ -45,6 +45,18 @@
             android:dependency="flash_on_call_waiting"/>
          </PreferenceCategory>
 
+    <com.legion.settings.preferences.SystemSettingSwitchPreference
+        android:key="notification_headers"
+        android:title="@string/notification_headers_title"
+        android:summary="@string/notification_headers_summary"
+        android:defaultValue="true" />
+
+    <com.legion.settings.preferences.SystemSettingSwitchPreference
+        android:key="center_notification_headers"
+        android:title="@string/center_notification_headers_title"
+        android:summary="@string/center_notification_headers_summary"
+        android:dependency="notification_headers"
+        android:defaultValue="true" />
 <PreferenceCategory
         android:key="incall_vib_options"
         android:title="@string/incall_vibration_category" >
