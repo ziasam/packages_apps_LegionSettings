@@ -18,24 +18,6 @@
     android:title="@string/lockscreen_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <com.legion.settings.preferences.SystemSettingSwitchPreference
-        android:key="fingerprint_success_vib"
-        android:title="@string/fprint_sucess_vib_title"
-        android:summary="@string/fprint_sucess_vib_summary"
-        android:defaultValue="true" />
-
-    <com.legion.settings.preferences.SystemSettingSwitchPreference
-        android:key="fod_recognizing_animation"
-        android:title="@string/fod_recognizing_animation_title"
-        android:summary="@string/fod_recognizing_animation_summary"
-        android:defaultValue="false" />
-
-    <com.legion.settings.preferences.SystemSettingSwitchPreference
-        android:key="fingerprint_error_vib"
-        android:title="@string/fprint_error_vib_title"
-        android:summary="@string/fprint_error_vib_summary"
-        android:defaultValue="true" />
-
     <com.legion.settings.preferences.SecureSettingSwitchPreference
         android:key="lock_screen_transparent_notifications_enabled"
         android:title="@string/transparent_lockscreen_notification_title"
@@ -75,10 +57,39 @@
         android:summary="%s"
         android:defaultValue="1" />
 
+    <!-- Fingerprint customization options -->
+
+  <PreferenceCategory
+        android:key="fingerprint_category"
+	android:title="@string/fingerprint_title">
+
     <com.legion.settings.preferences.SystemSettingSwitchPreference
-        android:key="smart_space"
-        android:title="@string/smart_space_title"
-        android:summary="@string/smart_space_summary"
+        android:key="fod_recognizing_animation"
+        android:title="@string/fod_recognizing_animation_title"
+        android:summary="@string/fod_recognizing_animation_summary"
+        android:defaultValue="false" />
+
+    <com.legion.settings.preferences.SystemSettingListPreference 
+            android:key="fod_recognizing_animation_list" 
+            android:title="@string/fod_recog_animation_effect_title" 
+            android:summary="%s" 
+            android:entries="@array/fod_recog_animation_entries" 
+            android:entryValues="@array/fod_recog_animation_values" 
+            android:defaultValue="0"
+            android:dependency="fod_recognizing_animation" />
+
+    <com.legion.settings.preferences.SystemSettingSwitchPreference
+        android:key="fingerprint_success_vib"
+        android:title="@string/fprint_sucess_vib_title"
+        android:summary="@string/fprint_sucess_vib_summary"
         android:defaultValue="true" />
+
+    <com.legion.settings.preferences.SystemSettingSwitchPreference
+        android:key="fingerprint_error_vib"
+        android:title="@string/fprint_error_vib_title"
+        android:summary="@string/fprint_error_vib_summary"
+        android:defaultValue="true" />
+
+   </PreferenceCategory>
 
 </PreferenceScreen>
