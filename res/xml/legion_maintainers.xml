@@ -45,4 +45,32 @@
         </Preference>
 	</PreferenceCategory>
 
+<PreferenceCategory
+              android:key="motorola_devices"
+              android:title="@string/motorola_devices" >
+
+  <Preference
+            android:title="@string/sanders_maintainer"
+            android:summary="@string/device_sanders"
+            android:icon="@drawable/ic_devs_phone" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/pintos" />
+        </Preference>
+        </PreferenceCategory>
+
+<PreferenceCategory
+              android:key="asus_devices"
+              android:title="@string/asus_devices" >
+
+  <Preference
+            android:title="@string/x01bd_maintainer"
+            android:summary="@string/device_x01bd"
+            android:icon="@drawable/ic_devs_phone" >
+            <intent
+                android:action="android.intent.action.VIEW"
+	        android:data="https://t.me/Ahmedsk786" />
+        </Preference>
+        </PreferenceCategory>
+
 </PreferenceScreen>

@@ -9,6 +9,13 @@
    <string name="whyred_maintainer">BabaSahare</string>
 
    <!-- Device Categories -->
+   <string name="asus_devices">Asus</string>
+
+   <!-- Asus Device maintainers -->
+   <string name="device_x01bd">Asus Max Pro M2 (X01BD)</string>
+   <string name="x01bd_maintainer">Ahmed shaikh</string>
+
+   <!-- Device Categories -->
    <string name="poco_devices">Poco</string>
 
    <!-- Poco Device maintainers -->
@@ -16,15 +23,9 @@
    <string name="miatoll_maintainer">Dr. Raj Kale</string>
 
    <!-- Device Categories -->
-   <string name="asus_devices">Asus</string>
-
-   <!-- Asus Device maintainers -->
-   <string name="device_x01bd">Asus Max Pro M2 (X01BD)</string>
-   <string name="x01bd_maintainer">Ahmedsk786</string>
-
-   <!-- Device Categories -->
    <string name="motorola_devices">Motorola</string>
 
    <!-- Motorola Device maintainers -->
-
+   <string name="device_sanders">Moto G5 (S) Plus (sanders)</string>
+   <string name="sanders_maintainer">Lucas Ponez</string>
 </resources>
