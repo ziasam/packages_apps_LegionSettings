@@ -31,6 +31,9 @@
    <string name="device_miatoll">Miatoll</string>
    <string name="miatoll_maintainer">Dr. Raj Kale</string>
 
+   <string name="device_phoenix">Poco X2 (phoenix)</string>
+   <string name="phoenix_maintainer">Sanjheevi</string>
+
    <!-- Device Categories -->
    <string name="motorola_devices">Motorola</string>
 

@@ -30,6 +30,14 @@
                 android:data="https://t.me/rajkale99" />
         </Preference>
 
+  <Preference
+            android:title="@string/phoenix_maintainer"
+            android:summary="@string/device_phoenix"
+            android:icon="@drawable/ic_devs_phone" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/zoldycc" />
+        </Preference>
 	</PreferenceCategory>
 <PreferenceCategory
               android:key="xiaomi_devices"
