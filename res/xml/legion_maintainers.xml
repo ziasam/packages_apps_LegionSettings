@@ -73,7 +73,7 @@
 	
   <Preference
             android:title="@string/wayne_maintainer"
-            android:summary="@string/device_jasmine_sprout"
+            android:summary="@string/device_wayne"
             android:icon="@drawable/ic_devs_phone" >
             <intent
                 android:action="android.intent.action.VIEW"
