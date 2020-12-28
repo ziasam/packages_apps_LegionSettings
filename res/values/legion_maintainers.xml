@@ -34,7 +34,7 @@
    <string name="poco_devices">Poco</string>
 
    <!-- Poco Device maintainers -->
-   <string name="device_miatoll">Miatoll</string>
+   <string name="device_miatoll">Poco M2 pro (Miatoll)</string>
    <string name="miatoll_maintainer">Dr. Raj Kale</string>
 
    <string name="device_phoenix">Poco X2 (phoenix)</string>
