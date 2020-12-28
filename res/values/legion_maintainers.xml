@@ -5,14 +5,14 @@
    <string name="xiaomi_devices">Xiaomi</string>
 
    <!-- Xiaomi Device maintainers -->
-   <string name="device_whyred">Redmi Note 5 (whyred)</string>
+   <string name="device_whyred">Xiaomi Redmi Note 5 (whyred)</string>
    <string name="whyred_maintainer">BabaSahare</string>
  
    <string name="device_raphael">Redmi K20 pro (raphael)</string>
    <string name="raphael_maintainer">Bilal(anonhacker)</string>
 
-   <string name="device_jasmine_sprout">Redmi MiA2 (jasmine_sprout)</string>
-   <string name="jasmine_sprout_maintainer">ImmanuelRaj</string>
+   <string name="device_jasmine_sprout">Xiaomi MiA2 (jasmine_sprout)</string>
+   <string name="jasmine_sprout_maintainer">Immanuel Raj</string>
 
    <string name="device_ysl">Redmi s2/y2 (ysl)</string>
    <string name="ysl_maintainer">Dinesh</string>
