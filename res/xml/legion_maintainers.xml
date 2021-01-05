@@ -116,15 +116,6 @@
                 android:action="android.intent.action.VIEW"
 	        android:data="https://t.me/Ahmedsk786" />
         </Preference>
-        
-  <Preference
-            android:title="@string/x00td_maintainer"
-            android:summary="@string/device_x00td"
-            android:icon="@drawable/ic_devs_phone" >
-            <intent
-                android:action="android.intent.action.VIEW"
-	        android:data="https://t.me/pkm774" />
-        </Preference>
         </PreferenceCategory>
 
 <PreferenceCategory
