@@ -26,9 +26,6 @@
    <!-- Asus Device maintainers -->
    <string name="device_x01bd">Asus Max Pro M2 (X01BD)</string>
    <string name="x01bd_maintainer">Ahmed shaikh</string>
-   
-   <string name="device_x00td">Asus Max Pro M1 (X00TD)</string>
-   <string name="x00td_maintainer">@pkm774</string>
 
    <!-- Device Categories -->
    <string name="poco_devices">Poco</string>
