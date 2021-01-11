@@ -50,5 +50,12 @@
    <!-- Realme Device maintainers -->
    <string name="device_RMX1971">Realme 5 Pro (RMX1971)</string>
    <string name="RMX1971_maintainer">LuckYVii</string>
+   
+   <!-- Device Categories -->
+   <string name="leeco_devices">LeEco</string>
+
+   <!-- Realme Device maintainers -->
+   <string name="device_x2">LeEco LeMax2 (x2)</string>
+   <string name="x2_maintainer">CrisBalGreece</string>
 
 </resources>
