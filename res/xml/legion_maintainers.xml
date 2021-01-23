@@ -38,7 +38,17 @@
                 android:action="android.intent.action.VIEW"
                 android:data="https://t.me/zoldycc" />
         </Preference>
+   <Preference
+            android:title="@string/lmi_maintainer"
+            android:summary="@string/device_lmi"
+            android:icon="@drawable/ic_devs_phone" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/t6pal" />
+        </Preference>
 	</PreferenceCategory>
+	
+	
 <PreferenceCategory
               android:key="xiaomi_devices"
               android:title="@string/xiaomi_devices" >

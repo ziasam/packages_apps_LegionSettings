@@ -36,6 +36,9 @@
 
    <string name="device_phoenix">Poco X2 (phoenix)</string>
    <string name="phoenix_maintainer">Sanjheevi</string>
+   
+   <string name="device_lmi">Poco F2 Pro (lmi)</string>
+   <string name="lmi_maintainer">AbdullahPS</string>
 
    <!-- Device Categories -->
    <string name="motorola_devices">Motorola</string>
