@@ -40,10 +40,4 @@
         android:entryValues="@array/qs_datausage_values"
         android:defaultValue="0" />
 
-    <com.legion.settings.preferences.SystemSettingSwitchPreference
-        android:key="quick_settings_vibrate"
-        android:title="@string/quick_settings_vibrate_title"
-        android:summary="@string/quick_settings_vibrate_summary"
-        android:defaultValue="false"/>
-
 </PreferenceScreen>
