@@ -61,6 +61,15 @@
                 android:action="android.intent.action.VIEW"
                 android:data="https://t.me/saharenil" />
         </Preference>
+		
+  <Preference
+            android:title="@string/ginkgo_maintainer"
+            android:summary="@string/device_ginkgo"
+            android:icon="@drawable/ic_devs_phone" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/VitorSSSouza" />
+        </Preference>
 
   <Preference
             android:title="@string/raphael_maintainer"
