@@ -47,8 +47,8 @@
    <string name="device_sanders">Moto G5 (S) Plus (sanders)</string>
    <string name="sanders_maintainer">Lucas Ponez</string>
    
-   <string name="device_sanders">Moto G7 (river)</string>
-   <string name="sanders_maintainer">VitorSSSouza</string>
+   <string name="device_river">Moto G7 (river)</string>
+   <string name="river_maintainer">VitorSSSouza</string>
    
    <!-- Device Categories -->
    <string name="realme_devices">realme</string>
