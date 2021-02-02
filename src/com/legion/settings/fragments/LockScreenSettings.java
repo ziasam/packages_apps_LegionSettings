@@ -48,6 +48,9 @@ import com.legion.settings.preferences.SecureSettingListPreference;
 public class LockScreenSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
 
+    private static final String FOD_ICON_PICKER_CATEGORY = "fod_icon_picker_category";
+
+    private Preference mFODIconPicker;
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
@@ -57,8 +60,12 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
         final PreferenceScreen prefScreen = getPreferenceScreen();
         Resources resources = getResources();
 
+        mFODIconPicker = (Preference) findPreference(FOD_ICON_PICKER_CATEGORY);
+        if (mFODIconPicker != null
+                && !getResources().getBoolean(com.android.internal.R.bool.config_needCustomFODView)) {
+            prefScreen.removePreference(mFODIconPicker);
+        }
     }
-
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         ContentResolver resolver = getActivity().getContentResolver();
 

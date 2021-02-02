@@ -236,10 +236,6 @@
     <string name="double_tap_sleep_lockscreen_title">Double tap to sleep</string>
     <string name="double_tap_sleep_lockscreen_summary">Double tap anywhere on the lockscreen to put phone to sleep</string>
 
-    <!-- QuickSettings haptic feedback -->
-    <string name="quick_settings_vibrate_title">Vibrate on touch</string>
-    <string name="quick_settings_vibrate_summary">Vibrate when QS tiles are pressed</string>
-
     <!-- Battery light -->
     <string name="battery_light_settings">Battery Charging Light</string>
     <string name="battery_light_summary">Customization for Battery Light</string>
@@ -696,12 +692,6 @@
     <string name="lock_weather_city_font_summary">Change the default font of the lockscreen weather city</string>
     <string name="lock_weather_city_dialog_title">Select lock weather city font</string>
 
-    <!-- QS Header data uasge -->
-    <string name="qs_datausage_title">Data usage in QS Header</string>
-    <string name="qs_datausage_disabled">Disabled</string>
-    <string name="qs_datausage_daily">Daily usage</string>
-    <string name="qs_datausage_monthly">Monthly usage</string>
-
     <!-- Gradient Panel QS Bg -->
     <string name="qs_new_bg_title">Gradient Qs Background</string>
     <string name="qs_new_bg_summary">Whether to enable gradient based qs panel background</string>
@@ -718,25 +708,18 @@
     <string name="center_notification_headers_title">Center notification headers</string>
     <string name="center_notification_headers_summary">Whether to Center R style notification headers (Requires a SystemUI restart)</string>
 
+    <!-- Fingerprint Customizations -->
+    <string name="fingerprint_title">Fingerprint Customizations</string>
+
+    <!-- FOD icon picker -->
+    <string name="fod_icon_picker_category_title">FOD Customizations</string>
+    <string name="fod_icon_picker_title">Fingerprint icon</string>
+    <string name="fod_icon_picker_summary">Choose your favorite fingerprint icon</string>
+    <string name="fod_icon_picker_footer">In order to add your own icon, select the top left icon and use the OnePlus 6T FP Customizer app to select the icon you want.</string>
+ 
     <!-- FOD animation -->
     <string name="fod_recognizing_animation_title">Recognizing animation</string>
     <string name="fod_recognizing_animation_summary">Show an animation while reading your fingerprint</string>
-    <string name="fod_recog_animation_effect_title">Recognizing animation effect</string>
-    <string name="fod_recog_animation_miui_normal">MIUI default</string> 
-    <string name="fod_recog_animation_miui_aod">AOD</string>
-    <string name="fod_recog_animation_miui_light">Light</string>
-    <string name="fod_recog_animation_miui_pop">Pop</string>
-    <string name="fod_recog_animation_miui_pulse">Pulse</string>
-    <string name="fod_recog_animation_miui_pulse_white">Pulse (White)</string> 
-    <string name="fod_recog_animation_miui_rhythm">Rhythm</string>
-    <string name="fod_recog_animation_op_cosmos">Cosmos</string>
-    <string name="fod_recog_animation_op_mclaren">McLaren</string>
-    <string name="fod_recog_animation_op_stripe">Stripe</string>
-    <string name="fod_recog_animation_op_wave">Wave</string>
-    <string name="fod_recog_animation_pureview_dna">DNA</string>
-    <string name="fod_recog_animation_pureview_future">Future</string>
-    <string name="fod_recog_animation_pureview_halo_ring">Halo ring</string> 
-    <string name="fod_recog_animation_pureview_molecular">Molecular</string>
 
     <!-- QuickSettings Panel Transparency -->
     <string name="qs_panel_alpha_title">Quick Settings opacity</string>
@@ -770,5 +753,26 @@
     <!-- Oneui -->
     <string name="enable_oneui">OneUI</string>
     <string name="enable_oneui_summary">Show spacer above settings actionbar for easier use with one hand\nNOTE: restart settings app to see effect</string>
+
+    <string name="fod_recog_animation_effect_title">Select fingerprint animation effect</string>
+    <string name="fod_recog_animation_miui_aurora">Aurora (K30 Pro)</string>
+    <string name="fod_recog_animation_miui_aurora_cas">Aurora (Mi 10 Ultra)</string>
+    <string name="fod_recog_animation_miui_star_cas">Starlight</string>
+    <string name="fod_recog_animation_op_mclaren">McLaren</string>
+    <string name="fod_recog_animation_op_ripple">Ripple</string>
+    <string name="fod_recog_animation_op_scanning">Scanning (Cyberpunk 2077)</string>
+    <string name="fod_recog_animation_op_stripe">Stripe</string>
+    <string name="fod_recog_animation_rog_pulsar">Pulsar</string>
+    <string name="fod_recog_animation_rog_supernova">Supernova</string>
+
+    <!-- Allow fake signature -->
+    <string name="allow_signature_fake">Allow signature spoofing</string>
+    <string name="allow_signature_fake_summary">Allow apps to bypass security systems by pretending to be a different app.</string>
+
+    <string name="fod">FoD</string>
+    
+       <!-- Screen off fod -->
+    <string name="fod_gesture_title">Screen off fingerprint</string>
+    <string name="fod_gesture_summary">Allows unlocking the device without having to wake up the screen first</string>
 </resources>
 

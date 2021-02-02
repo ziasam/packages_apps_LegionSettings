@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <!-- Copyright (C) 2020 LegionOS
+
+      Licensed under the Apache License, Version 2.0 (the "License");
+      you may not use this file except in compliance with the License.
+      You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+      Unless required by applicable law or agreed to in writing, software
+      distributed under the License is distributed on an "AS IS" BASIS,
+      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+      implied.
+      See the License for the specific language governing permissions and
+      limitations under the License.
+ -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+     <string name="about_legion">About</string>
+     <string name="about_info">About Us</string>
+     <string name="about_info_summary">LEGIONOS Is just another rom which will be concentrating on features as well as battery performance on other hand , It Is Based On AOSP And Features are taken from many roms and packed it here</string>
+     <string name="dev_info">About LegionOS</string>
+     <string name="devs_header">Meet Our Team</string>
+     <string name="founder_lead">Dr. Raj KAle</string>
+     <string name="founder_lead_description">Founder/Lead Developer</string>
+     <string name="core1">Lucas Ponez</string>
+     <string name="core1_description">Core Developer aka Maintainer manager</string>
+     <string name="core2">AnonHacker</string>
+     <string name="core2_description">Core Developer aka Cherry-picker</string>
+     <string name="core3">Immanuel Raj</string>
+     <string name="core3_description">Core Developer aka Web designer</string>
+     <string name="social_header">#Lets Go!</string>
+     <string name="legion_web">Website</string>
+     <string name="legion_web_description">LegionOS website for Infos and more.</string>
+     <string name="legion_web_link">https://project-legionos.github.io/</string>
+     <string name="legion_telegram">Telegram</string>
+     <string name="legion_telegram_description">LegionOS Channel.</string>
+     <string name="legion_telegram_link">https://t.me/LegionOS</string>
+     <string name="legion_twitter">Twitter</string>
+     <string name="legion_twitter_description">LegionOS official twitter handle.</string>
+     <string name="legion_twitter_link">https://twitter.com/ProjectLegionOS</string>
+     <string name="legion_github">Github</string>
+     <string name="legion_github_description">We are open source!</string>
+     <string name="legion_github_link">https://github.com/Project-LegionOS</string>
+     <string name="donate">Show your support</string>
+     <string name="donate_description">Donation is not necessary, but each and every penny from you will help us to pay server bills.</string>
+     <string name="donation_link">https://paypal.me/rajkale99</string>
+
+     <!--Device maintainers -->
+     <string name="official_devices">Official Devices</string>
+     <string name="maintainers_header">Our Maintainers</string>
+     <string name="maintainers_summary">official devices and maintainers</string>
+
+</resources>

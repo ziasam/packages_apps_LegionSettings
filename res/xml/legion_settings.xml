@@ -93,4 +93,11 @@
             android:fragment="com.legion.settings.fragments.MiscSettings"
             />
 
+        <!-- Misc -->
+        <com.legion.settings.preferences.CategoryLegionPreferenceAbout
+            android:key="about_category"
+            android:title="@string/about_legion"
+            android:fragment="com.legion.settings.fragments.About"
+            />
+
 </PreferenceScreen>
